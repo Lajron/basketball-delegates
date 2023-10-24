@@ -1,0 +1,200 @@
+body {
+    background-color: #FAFAFA;
+    color: black;
+    zoom: 1.1;
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+    position: sticky;
+    top: 0;
+    height: 40px;
+    border-bottom: 1px solid #dddddd;
+    background-color: whitesmoke;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+#gameNumberDiv {
+    display: flex;
+    align-items: center;
+    border: 2px solid #555555;
+    margin-left: 2px;
+}
+
+#gameNumberDiv div {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 34px;
+    width:128px;
+    line-height: 32px;
+    text-align: center;
+    background-color: #555555;
+    color: #EEEEEE;
+    font-family: Arial;
+}
+
+#gameNumber {
+    width: 28px;
+}
+
+#createDocx {
+    margin-left: auto;
+    margin-right: 2px;
+    height: 34px;
+    width: 128px;
+    font: Arial;
+    font-size: 14x;
+    font-weight: bold;
+    text-shadow: 1px 1px #555555;
+    background-color:seagreen;
+    border: olive;
+    color: #EEEEEE;
+}
+
+#createDocx:hover {
+    background-color:rgb(35, 117, 71);
+}
+
+input {
+    display: inline-block;
+    padding: 0 8px 0 6px;
+    line-height: 30px;
+    height: 32px;
+    border: 1px solid #dddbda;
+    background-color: #fff;
+    color: rgb(8, 7, 7);
+}
+
+input[type=number] {
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input:focus{
+    border: 1px solid #555555;
+    outline: none;
+    box-shadow: none;
+}
+
+.a {
+    color:crimson;
+}
+
+.b {
+    color:darkblue;
+}
+
+.page {
+    width: 720px;
+    margin:0 auto;
+}
+
+#main {
+    display: flex;
+    background-color: whitesmoke;
+}
+
+.teamResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    border-left: 1.5px solid #dddddd;
+    border-right: 1.5px solid #dddddd;
+
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.coach {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.representative {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.player {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 2px;
+}
+
+.playerNumber {
+    width: 15%;
+    margin-right: 1px;
+}
+
+.playerName {
+    width: 60%;
+}
+
+.resultTable {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 2000px;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #555555;
+    margin-bottom: 1px;
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+.playerScore {
+    width: 64px;
+}
+
+.numberView {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #555555;
+    color: #EEEEEE;
+    width: 32px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+#createTable {
+    position: sticky;
+}
+
+
+
+
